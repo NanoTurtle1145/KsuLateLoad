@@ -24,7 +24,7 @@ Android 小工具：当设备上已有 **CVE-2026-43499 临时 root**（`/data/l
 
 ## 说明
 
-- 必须使用 **非 debuggable 的 release 签名包**：debug 包会被 Shizuku 自动授权而不弹框（也不会出现在管理器的授权列表中）
+- 关于 Shizuku 授权弹框的表现，详见 `CORRECTIONS.md`（曾误判 debug 包会被自动放行，实际不会）
 - 应用本身不包含 exploit 代码；exploit 在电脑侧通过 ADB 完成
 - 依赖 Shizuku API（Apache-2.0），详见 `NOTICE`
 
