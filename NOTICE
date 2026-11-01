@@ -1,0 +1,12 @@
+KsuLateLoad
+===========
+
+本应用使用以下第三方组件：
+
+- Shizuku API (dev.rikka.shizuku:api / :provider)
+  Copyright (c) RikkaApps
+  Licensed under the Apache License, Version 2.0
+  https://github.com/RikkaApps/Shizuku-API
+
+本应用不含 KernelSU / ksud 二进制；late-load 由设备上已有的
+/data/local/tmp/rms24/helper + ksud 完成。
